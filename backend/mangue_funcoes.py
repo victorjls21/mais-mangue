@@ -66,9 +66,7 @@ def criar_tabelas():
     conn.close()
 
 
-# =========================
 # FUNÇÕES DO APP - POPULAÇÃO
-# =========================
 
 # Função para registrar denúncia ambiental
 def registrar_denuncia(tipo, localizacao, descricao):
@@ -148,9 +146,9 @@ def calcular_ecopontos(qtd_denuncias, qtd_participacoes):
     return pontos, ranking
 
 
-# =========================
+
 # FUNÇÕES DA PLATAFORMA - EMPRESAS
-# =========================
+
 
 # Função para criar projeto ambiental
 def criar_projeto(nome, area, valor):
@@ -267,9 +265,8 @@ def gerar_relatorio_esg():
     print("=================================\n")
 
 
-# =========================
 # FUNÇÃO DE EXIBIÇÃO
-# =========================
+
 
 # Função para exibir qualquer lista de registros
 def exibir_lista(lista):
@@ -283,9 +280,9 @@ def exibir_lista(lista):
         print(item)
 
 
-# =========================
+
 # MENU DO APP
-# =========================
+
 
 # Menu que representa o aplicativo da população
 def menu_app():
@@ -332,9 +329,9 @@ def menu_app():
             print("Opção inválida.")
 
 
-# =========================
+
 # MENU DA PLATAFORMA
-# =========================
+
 
 # Menu que representa a plataforma das empresas
 def menu_plataforma():
@@ -399,9 +396,9 @@ def menu_plataforma():
             print("Opção inválida.")
 
 
-# =========================
+
 # MENU PRINCIPAL
-# =========================
+
 
 # Menu principal do sistema +Mangue
 def menu_principal():
