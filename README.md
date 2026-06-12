@@ -122,7 +122,8 @@ Todas as rotas retornam JSON. As de dados exigem sessão ativa (cookie).
 │   ├── app.py                # rotas /api
 │   ├── crud.py               # acesso ao banco (CRUD + hash de senha)
 │   ├── requirements.txt
-│   └── database.db           # gerado automaticamente (ignorado pelo git)
+│   └── database.db           # gerado automaticamente (ignorado pelo git
+│   ├── mangue_funcoes.py     # crud das plataformas (APP e Desktop)
 │
 ├── frontend/                 # App React + Vite
 │   ├── index.html
